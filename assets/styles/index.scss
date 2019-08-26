@@ -1,0 +1,161 @@
+@import '~bootstrap/scss/bootstrap';
+
+header {
+  height: 125px;
+  display: block;
+  background-image: url('./public/15background.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 100% center;
+}
+
+body {
+  color: #797166;
+  background: #f5f3f0;
+}
+
+html {
+  font: normal normal normal 1em/1.5 "lft-etica", "Helvetica Neue", Arial, sans-serif;
+}
+
+.header-logo {
+  max-width: 29.125em;
+  padding: 36px 16px 24px;
+  display: block;
+  margin: 0 auto;
+}
+
+a {
+  transition: color 0.32s ease;
+  color: #c56c76;
+  text-decoration: underline;
+}
+
+a:hover {
+  color: #d9818b;
+}
+
+footer {
+  background: #51525a;
+  color: #ccccd1;
+  font-size: 0.875em;
+  display: block;
+}
+
+.footer-logo {
+  display: block;
+  width: 120px;
+  background: none;
+  margin: auto;
+  margin-bottom: 48px;
+}
+
+.footer-text {
+  margin: 0px 30px;
+}
+
+h1 {
+  color: #5c626a;
+  font-size: 2rem;
+}
+
+h2 {
+  color: #5c626a;
+  font-size: 1.5rem;
+}
+
+.headshot {
+  width: 100%;
+}
+
+.speaker-blurb {
+  margin-top: .8em;
+  margin-bottom: 0;
+}
+
+.speaker-info {
+  padding-left: .75em;
+  flex-wrap: wrap;
+  color: #797166;
+  font-size: 1.25em;
+  font-weight: bold;
+}
+
+.speaker-intro {
+  display: flex;
+}
+
+.speaker-website {
+  color: #c56c76;
+  font-size: .75em;
+  font-weight: bold;
+}
+
+.speaker-photo {
+  flex-shrink: 0;
+  width: 30.6667%;
+}
+
+.join-email-list {
+  background: #51525a;
+  color: #ccccd1;
+  box-shadow: 4px 4px 2px #ddd;
+  box-sizing: border-box;
+  padding: 20px;
+  margin: 0 0 15px 0;
+  & p {
+      margin: 0;
+  }
+}
+
+.aycl {
+  margin: 20px auto 0
+}
+
+.aycl-button {
+  color: #f5f3f0;
+  background: #c56c76;
+  text-align: center;
+  border: none;
+  border-radius: .25em;
+  padding: 0.6em 1em;
+}
+
+.aycl-button:hover {
+      background: #c56c76;
+}
+
+li {
+  margin: .5em 0 0;
+}
+
+strong {
+  color: #97b9c1;
+}
+
+// hr {
+//   margin: 2.5em auto 2em;
+//   height: 0;
+//   width: 80%;
+//   max-width: 31.25em;
+//   border: none;
+//   border-top: 1px solid #51525a;
+// }
+
+.page-content {
+  padding: 0 24px;
+  margin: 0 auto;
+  max-width: 61em;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.chunk {
+  margin-bottom: 2em;
+}
+
+.footer-info {
+  box-sizing: border-box;
+  margin: 10px 10px 10px 0;
+  padding: 0 25px;
+}
