@@ -15,7 +15,7 @@ body {
 }
 
 .header-logo {
-  max-width: 29.125em;
+  max-width: 23.125em;
   padding: 36px 16px 24px;
   display: block;
   margin: 0 auto;
@@ -137,17 +137,16 @@ h3 {
 
 .footer-info {
   box-sizing: border-box;
-  margin: 10px 10px 10px 0;
+  margin: 10px;
   padding: 0 25px;
 }
 
 .call-to-action {
   display: block;
-  line-height: 2;
   background-color: #97b9c1;
   color: #3e3934;
   text-align: center;
-  padding: 1% 0;
+  padding: 1% 1.5%;
   font-weight: bold;
   font-size: 1.2em;
 }
@@ -158,6 +157,7 @@ h3 {
 
 .center {
   text-align:center;
+  margin: 0 1.5%;
 }
 
 .border-holder {
