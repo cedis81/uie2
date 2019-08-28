@@ -1,5 +1,11 @@
 @import '~bootstrap/scss/bootstrap';
 
+@media only screen and (max-width: 600px) {
+  .header-logo {
+    max-width: 23.125em;
+  }
+}
+
 header {
   height: 125px;
   display: block;
@@ -15,7 +21,7 @@ body {
 }
 
 .header-logo {
-  max-width: 23.125em;
+  // max-width: 29.125em;
   padding: 36px 16px 24px;
   display: block;
   margin: 0 auto;
