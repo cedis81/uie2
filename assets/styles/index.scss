@@ -14,10 +14,6 @@ body {
   background: #f5f3f0;
 }
 
-html {
-  font: normal normal normal 1em/1.5 "lft-etica", "Helvetica Neue", Arial, sans-serif;
-}
-
 .header-logo {
   max-width: 29.125em;
   padding: 36px 16px 24px;
@@ -64,21 +60,23 @@ h2 {
   font-size: 1.5rem;
 }
 
+h3 {
+  color: #5c626a;
+  font-size: 1.2rem;
+}
+
 .headshot {
   width: 100%;
+  height: auto;
+  text-align: center;
 }
 
 .speaker-blurb {
-  margin-top: .8em;
-  margin-bottom: 0;
+  padding: 0 5em 0 5em;
 }
 
 .speaker-info {
-  padding-left: .75em;
-  flex-wrap: wrap;
-  color: #797166;
-  font-size: 1.25em;
-  font-weight: bold;
+  margin-top: .5em
 }
 
 .speaker-intro {
@@ -92,8 +90,8 @@ h2 {
 }
 
 .speaker-photo {
-  flex-shrink: 0;
-  width: 30.6667%;
+  width: 200px;
+  height: 200px;
 }
 
 .join-email-list {
@@ -118,29 +116,12 @@ h2 {
   text-align: center;
   border: none;
   border-radius: .25em;
-  padding: 0.6em 1em;
+  margin: 10px;
 }
 
 .aycl-button:hover {
-      background: #c56c76;
+  background: #c56c76;
 }
-
-li {
-  margin: .5em 0 0;
-}
-
-strong {
-  color: #97b9c1;
-}
-
-// hr {
-//   margin: 2.5em auto 2em;
-//   height: 0;
-//   width: 80%;
-//   max-width: 31.25em;
-//   border: none;
-//   border-top: 1px solid #51525a;
-// }
 
 .page-content {
   padding: 0 24px;
@@ -151,11 +132,47 @@ strong {
 }
 
 .chunk {
-  margin-bottom: 2em;
+  margin-bottom: 1.5em;
 }
 
 .footer-info {
   box-sizing: border-box;
   margin: 10px 10px 10px 0;
   padding: 0 25px;
+}
+
+.call-to-action {
+  display: block;
+  line-height: 2;
+  background-color: #97b9c1;
+  color: #3e3934;
+  text-align: center;
+  padding: 1% 0;
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+.call-to-action2 {
+  background: #f5f3f0;
+}
+
+.center {
+  text-align:center;
+}
+
+.border-holder {
+  border-color: black;
+  border-style: solid;
+}
+
+.speaker-box {
+  padding: 0 0 0 5%;
+}
+
+.wrap-text {
+  word-wrap: break-word
+}
+
+.justify-content {
+  justify-content: center;
 }

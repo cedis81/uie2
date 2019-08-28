@@ -15,192 +15,311 @@
       <script src="public/application.js" type="text/javascript" charset="utf-8" defer></script>
     </head>
     <body>
-      <header class="chunk">
+      <header>
         <img class="header-logo" src="./public/uxim15.png" alt="UX Immersion Mobile Conference 2019">
       </header>
-      <div class="page-content">
-        <div class="container">
-          <h1>Have 8 smart people teach you how to design for mobile</h1>
-          <div class="row chunk">
-            <div class="col-md-7">
-              <p>If you want to design great mobile experiences, then check out these talks from UXIM15:</p>
-              <ul>
-                <li>Luke Wroblewski on current mobile behavior, data, and trends</li>
-                <li>Brad Frost on Atomic Design–building systems from components</li>
-                <li>Cyd Harrell on conducting mobile research, even with small budgets</li>
-                <li>Jason Grigsby on implementing a mobile-first responsive web design process</li>
-                <li>Karen McGrane on publishing content to many devices</li>
-                <li>Nate Schutta on building prototypes using JavaScript</li>
-                <li>Ben Callahan on moving beyond a linear design process</li>
-                <li>Jared Spool on innovations in UX design education and development</li>
-              </ul>
-            </div>
-            <div class="col-md-5">
-              <div class="join-email-list">
-                <p>
-                  We’re in the planning stages for our UX Immersion Mobile Conference in <strong>Salt Lake City, UT April 13-15, 2019</strong>. <a href="http://www.uie.com/events/#uxim">Join the email list</a> to get the latest updates about the conference.
-                </p>
-              </div>
-              <div class="join-email-list">
-                <div>
-                  <p>
-                    <strong>Get access</strong> to these conference videos and their presentation materials as well as everything else in <a href="http://aycl.uie.com/ondemand/uxim_2014">All You Can Learn by UIE</a> for only <strong>$23/month</strong>
+      <div class="call-to-action chunk">
+        Get access to these conference videos, materials and more at <a href="http://aycl.uie.com/ondemand/uxim_2014">All You Can Learn by UIE</a> for only $23/month. <a href="http://aycl.uie.com/ondemand/uxim_2014">
+        <button class="aycl-button">Start Learning Today</button></a>
+      </div>
+      <div class="center">
+        <h2>If you want to design great mobile experiences, then check out these talks from UXIM14:</h2>
+      </div>
+      <div class="container">
+        <div class="row justify-content">
+          <!-- speaker 1 -->
+          <div class="col-md-3 col-sm-6 p-3 headshot">
+            <a href="#ben-callahan-modal" data-toggle="modal" data-target="#ben-callahan-modal">
+              <img class="speaker-photo" src="public/ben-callahan.jpg" alt="speaker photo">
+              <h6 class="text-center speaker-info">Ben Callahan on moving beyond a linear design process</h6>
+            </a>
+          </div>
+
+          <!-- speaker 1 modal -->
+          <div class="modal fade" id="ben-callahan-modal" tabindex="-1" role="dialog" aria-labelledby="ben-callahan-modalTitle" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="ben-callahanLongTitle">Ben Callahan</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <h6>Dissecting Design</h6>
+                  <p class="modal-text">
+                    Imagine showing clients your work in Week 1, before any details are refined or big decisions made. How would they respond? Ben Callahan knows, and he’ll tell you how his team transitioned away from a linear design process with a big reveal–ta-da! <br><br>Click <a href="https://uxim14.uie.com/featured-talks#ben-callahan" target="_blank">here</a> for a full description of this session!
                   </p>
                 </div>
-                <div class="aycl">
-                  <a href="http://aycl.uie.com/ondemand/uxim_2014">
-                    <button class="aycl-button">Start Learning Today</button>
-                  </a>
+                <div class="modal-footer">
+                  <button class="aycl-button" type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
                 </div>
               </div>
             </div>
           </div>
-        </div>
-        <div class="container">
-          <h2 class="chunk">Here are the full descriptions of the 8 UXIM15 talks:</h2>
-  <!-- first row containing 3 speakers -->
-          <div class="row">
-            <div class="col-md-4 chunk">
-              <div class="speaker-intro">
-                <div class="speaker-photo">
-                  <img class="headshot" src="./public/ben-callahan.jpg" alt="Speaker photo">
-                </div>
-                <div class="speaker-info">Ben Callahan<a href="https://uxim14.uie.com/featured-talks#ben-callahan" target="_blank"><h4 class="speaker-website">Dissecting Design</h4></a>
-                </div>
-              </div>
-              <div class="speaker-blurb">
-                Imagine showing clients your work in Week 1, before any details are refined or big decisions made. How would they respond? Ben Callahan knows, and he’ll tell you how his team transitioned away from a linear design process with a big reveal–ta-da!
-              </div>
-            </div>
-            <div class="col-md-4 chunk">
-              <div class="speaker-intro">
-                <div class="speaker-photo">
-                  <img class="headshot" src="./public/cyd-harrell.jpg" alt="Speaker photo">
-                </div>
-                <div class="speaker-info">Cyd Harrell<a href="https://uxim14.uie.com/featured-talks#cyd-harrell" target="_blank"><h4 class="speaker-website">Doing “Pocket Research” to Learn About Your Users’ Lives</h4></a>
-                </div>
-              </div>
-              <div class="speaker-blurb">
-                Given the ubiquity of mobile–even among hard-to-reach populations–UX designers are poised to make data-driven design a standard practice. And gathering that data is easier than ever if you listen to Cyd Harrell, whose quick tips for doing mobile research are practical for any team.
-              </div>
-            </div>
-            <div class="col-md-4 chunk">
-              <div class="speaker-intro">
-                <div class="speaker-photo">
-                  <img class="headshot" src="./public/brad-frost.jpg" alt="Speaker photo">
-                </div>
-                <div class="speaker-info">Brad Frost<a href="https://uxim14.uie.com/featured-talks#brad-frost" target="_blank"><h4 class="speaker-website">Building Design Systems from Atomic Elements</h4></a>
-                </div>
-              </div>
-              <div class="speaker-blurb">
-                Are words like “speed” and “flexibility” part of your work? If so, don’t miss Brad Frost’s introduction to Atomic Design, a methodology he uses to break down page-based layouts into smaller components. He’ll talk about establishing your own system to create smart, scalable designs.
-              </div>
-            </div>
+          <!-- end speaker 1 -->
+
+          <!-- speaker 2 -->
+          <div class="col-md-3 col-sm-6 p-3 headshot">
+            <a href="#cyd-harrell-modal" data-toggle="modal" data-target="#cyd-harrell-modal">
+              <img class="speaker-photo" src="public/cyd-harrell.jpg" alt="speaker photo">
+              <h6 class="text-center speaker-info">Cyd Harrell on conducting mobile research, even with small budgets</h6>
+            </a>
           </div>
-  <!-- second row containing 3 speakers -->
-          <div class="row">
-            <div class="col-md-4 chunk">
-              <div class="speaker-intro">
-                <div class="speaker-photo">
-                  <img class="headshot" src="./public/jason-grigsby.jpg" alt="Speaker photo">
+
+          <!-- speaker 2 modal -->
+          <div class="modal fade" id="cyd-harrell-modal" tabindex="-1" role="dialog" aria-labelledby="cyd-harrell-modalTitle" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="cyd-harrellLongTitle">Cyd Harrell</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
                 </div>
-                <div class="speaker-info">Jason Grigsby<a href="https://uxim14.uie.com/featured-talks#jason-grigsby" target="_blank"><h4 class="speaker-website">Adapting to Different Forms of Input</h4></a>
-                </div>
-              </div>
-              <div class="speaker-blurb">
-                For years, we treated the web as a fixed canvas that reacted only to keyboard and mouse inputs. Now we have touch screens, cameras, voice control, and sensors–but how do we design for the explosion of these dynamic inputs? Jason Grigsby has some ideas you’ll want to hear.
-              </div>
-            </div>
-            <div class="col-md-4 chunk">
-              <div class="speaker-intro">
-                <div class="speaker-photo">
-                  <img class="headshot" src="./public/karen-mcgrane.jpg" alt="Speaker photo">
-                </div>
-                <div class="speaker-info">Karen McGrane<a href="https://uxim14.uie.com/featured-talks#karen-mcgrane" target="_blank"><h4 class="speaker-website">Defining Your Mobile Content Strategy</h4></a>
-                </div>
-              </div>
-              <div class="speaker-blurb">
-                Today, 33 percent of people in America only use a mobile device to browse online. So why are companies still approaching mobile content from a desktop perspective? Find out from Karen McGrane, who’ll discuss how to define a mobile content strategy that’ll work for your organization and your users, too.
-              </div>
-            </div>
-            <div class="col-md-4 chunk">
-              <div class="speaker-intro">
-                <div class="speaker-photo">
-                  <img class="headshot" src="./public/nate-schutta.jpg" alt="Speaker photo">
-                </div>
-                <div class="speaker-info">Nate Schutta<a href="https://uxim14.uie.com/featured-talks#nate-schutta" target="_blank"><h4 class="speaker-website">Choosing Which Mobile Experience to Build</h4></a>
-                </div>
-              </div>
-              <div class="speaker-blurb">
-                Should your organization design a native app, a mobile web app, or something in between? With Nate Schutta’s guidance, you’ll help your team answer this question by asking the “right” business questions, considering today’s UX trends, and keeping up with mobile’s constant evolution.
-              </div>
-            </div>
-          </div>
-  <!-- third row containing 2 speakers and 1 call to action -->
-          <div class="row">
-            <div class="col-md-4 chunk">
-              <div class="speaker-intro">
-                <div class="speaker-photo">
-                  <img class="headshot" src="./public/luke-wroblewski.jpg" alt="Speaker photo">
-                </div>
-                <div class="speaker-info">Luke Wroblewski<a href="https://uxim14.uie.com/featured-talks#luke-wroblewski" target="_blank"><h4 class="speaker-website">Mobile Behavior and Design Trends</h4></a>
-                </div>
-              </div>
-              <div class="speaker-blurb">
-                Learn the language and facts you need to bring mobile to the forefront in your organization. Luke will share examples and insightful information sure to enlighten you during his keynote presentation.
-              </div>
-            </div>
-            <div class="col-md-4 chunk">
-              <div class="speaker-intro">
-                <div class="speaker-photo">
-                  <img class="headshot" src="./public/jared-spool.jpg" alt="Speaker photo">
-                </div>
-                <div class="speaker-info">Jared Spool<a href="https://uxim14.uie.com/featured-talks#jared-spool" target="_blank"><h4 class="speaker-website">How Do We Design Designers?</h4></a>
-                </div>
-              </div>
-              <div class="speaker-blurb">
-                If we could design, from scratch, what a newly minted UX designer would learn in school, what would that look like? Jared will talk about the major shifts in design education and how it will forever change the way we hire, staff, and value our team members.
-              </div>
-            </div>
-            <div class="col-md-4">
-              <div class="join-email-list">
-                <div>
-                  <p>
-                    <strong>Get access</strong> to these conference videos and their presentation materials as well as everything else in <a href="http://aycl.uie.com/ondemand/uxim_2014">All You Can Learn by UIE</a> for only <strong>$23/month</strong>
+                <div class="modal-body">
+                  <h6>Doing “Pocket Research” to Learn About Your Users’ Lives</h6>
+                  <p class="modal-text">
+                    Given the ubiquity of mobile–even among hard-to-reach populations–UX designers are poised to make data-driven design a standard practice. And gathering that data is easier than ever if you listen to Cyd Harrell, whose quick tips for doing mobile research are practical for any team. <br><br>Click <a href="https://uxim14.uie.com/featured-talks#cyd-harrell" target="_blank">here</a> for a full description of this session!
                   </p>
                 </div>
-                <div class="aycl">
-                  <a href="http://aycl.uie.com/ondemand/uxim_2014">
-                    <button class="aycl-button">Start Learning Today</button>
-                  </a>
+                <div class="modal-footer">
+                  <button class="aycl-button" type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
                 </div>
               </div>
             </div>
           </div>
+          <!-- end speaker 2 -->
+
+          <!-- speaker 3 -->
+          <div class="col-md-3 col-sm-6 p-3 headshot">
+            <a href="#brad-frost-modal" data-toggle="modal" data-target="#brad-frost-modal">
+              <img class="speaker-photo" src="public/brad-frost.jpg" alt="speaker photo">
+              <h6 class="text-center speaker-info">Brad Frost on Atomic Design–building systems from components</h6>
+            </a>
+          </div>
+
+          <!-- speaker 3 modal -->
+          <div class="modal fade" id="brad-frost-modal" tabindex="-1" role="dialog" aria-labelledby="brad-frost-modalTitle" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="brad-frostLongTitle">Brad Frost</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <h6>Building Design Systems from Atomic Elements</h6>
+                  <p class="modal-text">
+                    Are words like “speed” and “flexibility” part of your work? If so, don’t miss Brad Frost’s introduction to Atomic Design, a methodology he uses to break down page-based layouts into smaller components. He’ll talk about establishing your own system to create smart, scalable designs.<br><br>Click <a href="https://uxim14.uie.com/featured-talks#brad-frost" target="_blank">here</a> for a full description of this session!
+                  </p>
+                </div>
+                <div class="modal-footer">
+                  <button class="aycl-button" type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- end speaker 3 -->
+
+          <!-- speaker 4 -->
+          <div class="col-md-3 col-sm-6 p-3 headshot">
+            <a href="#jason-grigsby-modal" data-toggle="modal" data-target="#jason-grigsby-modal">
+              <img class="speaker-photo" src="public/jason-grigsby.jpg" alt="speaker photo">
+              <h6 class="text-center speaker-info">Jason Grigsby on implementing a mobile-first responsive web design process</h6>
+            </a>
+          </div>
+
+          <!-- speaker 4 modal -->
+          <div class="modal fade" id="jason-grigsby-modal" tabindex="-1" role="dialog" aria-labelledby="jason-grigsby-modalTitle" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="jason-grigsbyLongTitle">Jason Grigsby</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <h6>Adapting to Different Forms of Input</h6>
+                  <p class="modal-text">
+                    For years, we treated the web as a fixed canvas that reacted only to keyboard and mouse inputs. Now we have touch screens, cameras, voice control, and sensors–but how do we design for the explosion of these dynamic inputs? Jason Grigsby has some ideas you’ll want to hear. <br><br>Click <a href="https://uxim14.uie.com/featured-talks#jason-grigsby" target="_blank">here</a> for a full description of this session!
+                  </p>
+                </div>
+                <div class="modal-footer">
+                  <button class="aycl-button" type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- end speaker 4 -->
         </div>
+
+
+
+        <div class="row justify-content">
+          <!-- speaker 5 -->
+          <div class="col-md-3 col-sm-6 p-3 headshot">
+            <a href="#karen-mcgrane-modal" data-toggle="modal" data-target="#karen-mcgrane-modal">
+              <img class="speaker-photo" src="public/karen-mcgrane.jpg" alt="speaker photo">
+              <h6 class="text-center speaker-info">Karen McGrane on publishing content to many devices</h6>
+            </a>
+          </div>
+
+          <!-- speaker 5 modal -->
+          <div class="modal fade" id="karen-mcgrane-modal" tabindex="-1" role="dialog" aria-labelledby="karen-mcgrane-modalTitle" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="karen-mcgraneLongTitle">Karen McGrane</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <h6>Defining Your Mobile Content Strategy</h6>
+                  <p class="modal-text">
+                    Today, 33 percent of people in America only use a mobile device to browse online. So why are companies still approaching mobile content from a desktop perspective? Find out from Karen McGrane, who’ll discuss how to define a mobile content strategy that’ll work for your organization and your users, too. <br><br>Click <a href="https://uxim14.uie.com/featured-talks#karen-mcgrane" target="_blank">here</a> for a full description of this session!
+                  </p>
+                </div>
+                <div class="modal-footer">
+                  <button class="aycl-button" type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- end speaker 5 -->
+
+          <!-- speaker 6 -->
+          <div class="col-md-3 col-sm-6 p-3 headshot">
+            <a href="#nate-schutta-modal" data-toggle="modal" data-target="#nate-schutta-modal">
+              <img class="speaker-photo" src="public/nate-schutta.jpg" alt="speaker photo">
+              <h6 class="text-center speaker-info">Nate Schutta on building prototypes using JavaScript</h6>
+            </a>
+          </div>
+
+          <!-- speaker 6 modal -->
+          <div class="modal fade" id="nate-schutta-modal" tabindex="-1" role="dialog" aria-labelledby="nate-schutta-modalTitle" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="nate-schuttaLongTitle">Nate Schutta</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <h6>Choosing Which Mobile Experience to Build</h6>
+                  <p class="modal-text">
+                    Should your organization design a native app, a mobile web app, or something in between? With Nate Schutta’s guidance, you’ll help your team answer this question by asking the “right” business questions, considering today’s UX trends, and keeping up with mobile’s constant evolution. <br><br>Click <a href="https://uxim14.uie.com/featured-talks#nate-schutta" target="_blank">here</a> for a full description of this session!
+                  </p>
+                </div>
+                <div class="modal-footer">
+                  <button class="aycl-button" type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- end speaker 6 -->
+
+          <!-- speaker 7 -->
+          <div class="col-md-3 col-sm-6 p-3 headshot">
+            <a href="#luke-wroblewski-modal" data-toggle="modal" data-target="#luke-wroblewski-modal">
+              <img class="speaker-photo" src="public/luke-wroblewski.jpg" alt="speaker photo">
+              <h6 class="text-center speaker-info">Luke Wroblewski on current mobile behavior, data, and trends</h6>
+            </a>
+          </div>
+
+          <!-- speaker 7 modal -->
+          <div class="modal fade" id="luke-wroblewski-modal" tabindex="-1" role="dialog" aria-labelledby="luke-wroblewski-modalTitle" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="luke-wroblewskiLongTitle">Luke Wroblewski</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <h6>Mobile Behavior and Design Trends</h6>
+                  <p class="modal-text">
+                    Learn the language and facts you need to bring mobile to the forefront in your organization. Luke will share examples and insightful information sure to enlighten you during his keynote presentation.<br><br>Click <a href="https://uxim14.uie.com/featured-talks#luke-wroblewski" target="_blank">here</a> for a full description of this session!
+                  </p>
+                </div>
+                <div class="modal-footer">
+                  <button class="aycl-button" type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- end speaker 7 -->
+
+          <!-- speaker 8-->
+          <div class="col-md-3 col-sm-6 p-3 headshot">
+            <a href="#jared-spool-modal" data-toggle="modal" data-target="#jared-spool-modal">
+              <img class="speaker-photo" src="public/jared-spool.jpg" alt="speaker photo">
+              <h6 class="text-center speaker-information">Jared Spool on innovations in UX design education and development</h6>
+            </a>
+          </div>
+
+          <!-- speaker 8modal -->
+          <div class="modal fade" id="jared-spool-modal" tabindex="-1" role="dialog" aria-labelledby="jared-spool-modalTitle" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="jared-spoolLongTitle">Jared Spool</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <h6>How Do We Design Designers?</h6>
+                  <p class="modal-text">
+                    If we could design, from scratch, what a newly minted UX designer would learn in school, what would that look like? Jared will talk about the major shifts in design education and how it will forever change the way we hire, staff, and value our team members. <br><br>Click <a href="https://uxim14.uie.com/featured-talks#jared-spool" target="_blank">here</a> for a full description of this session!
+                  </p>
+                </div>
+                <div class="modal-footer">
+                  <button class="aycl-button" type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- end speaker 8-->
+        </div>
+
+
       </div>
-    <footer>
-      <div class="row">
-        <div class="col-md-2">
-        </div>
-        <div class="col-md-4 footer-info">
-          <p>
-            Questions or comments? Please send e-mail to <a href="https://uxim14.uie.com/mailto:events@uie.com">events@uie.com</a>. UX Immersion Mobile Conference is a proud production of <a href="">User Interface Engineering</a>.
-          </p>
-        </div>
-        <div class="col-md-4 footer-info">
-          <p>
-            Copyright © 2019, User Interface Engineering. All Rights Reserved. 510 Turnpike St., Suite 102, North Andover, MA 01845 1.800.588.9855 (within the U.S. and Canada) or +1.978.327.5561
-          </p>
-        </div>
+      <div class="call-to-action call-to-action2">
+        <h3>Get access to these conference videos, materials and more at <a href="http://aycl.uie.com/ondemand/uxim_2014">All You Can Learn by UIE</a> for only $23/month.</h3><a href="http://aycl.uie.com/ondemand/uxim_2014"><button class="aycl-button">Start Learning Today</button></a>
       </div>
-      <div class="col-md-2">
+      <div class="call-to-action">
+        <a href="http://www.uie.com/events/#uxim">Join the email list</a> to get the latest updates about the next conference, held in Salt Lake City, UT April 13-15, 2019.
       </div>
-      <div class="row">
-        <div class="col-12">
-          <img class="footer-logo" src="./public/15uielogo.png" alt="UIE logo">
+      <footer>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-2">
+            </div>
+            <div class="col-md-4 footer-info">
+              <p>
+                Questions or comments? Please send e-mail to <a href="https://uxim14.uie.com/mailto:events@uie.com">events@uie.com</a>. UX Immersion Mobile Conference is a proud production of <a href="">User Interface Engineering</a>.
+              </p>
+            </div>
+            <div class="col-md-4 footer-info">
+              <p>
+                Copyright © 2019, User Interface Engineering. All Rights Reserved. 510 Turnpike St., Suite 102, North Andover, MA 01845 1.800.588.9855 (within the U.S. and Canada) or +1.978.327.5561
+              </p>
+            </div>
+          </div>
+          <div class="col-md-2">
+          </div>
+          <div class="row">
+            <div class="col-12">
+              <img class="footer-logo" src="./public/15uielogo.png" alt="UIE logo">
+            </div>
+          </div>
         </div>
-      </div>
       </footer>
     </body>
 </html>
